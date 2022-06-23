@@ -27,7 +27,7 @@ def start_job() :
     st.markdown('Implemented by '
         '[N Bouyaa KASSINGA](https://www.linkedin.com/in/n-bouyaa-kassinga-818a02169/) - '
         'view project source code on '
-        '[GitHub](https://github.com/FadelT/Image_Audio_Analysis_ML)')
+        '[GitHub](https://github.com/FadelT/ml_avance_ok)')
     st.write('\n\n')
 
     options = st.sidebar.selectbox('What task do you wish?', ('regression', 'classification'),key=1)
